@@ -109,14 +109,14 @@
 <p>Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.</p>
 <p><strong>Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.</strong></p>
 <p>On this page, you’ll find some examples of the types of technical content that can be rendered with Academic.</p>
-<h2 id="examples"><a href="#examples">Examples</a></h2>
-<h3 id="code"><a href="#code">Code</a></h3>
+<h2 id="examples"><a href="#examples" class="header-anchor">Examples</a></h2>
+<h3 id="code"><a href="#code" class="header-anchor">Code</a></h3>
 <p>Franklin supports highlighting code natively, for instance here&#39;s a python-code block:</p>
 <pre><code class="language-python">import pandas as pd
 data &#61; pd.read_csv&#40;&quot;data.csv&quot;&#41;
 data.head&#40;&#41;</code></pre>
 <p>You can read more on code block highlighting and executing <a href="https://franklinjl.org/code/">in the docs</a>.</p>
-<h3 id="charts"><a href="#charts">Charts</a></h3>
+<h3 id="charts"><a href="#charts" class="header-anchor">Charts</a></h3>
 <p>You can execute Julia code and show the output, for instance you could use <code>PyPlot</code> or <code>Plotly</code> and show the output.</p>
 <pre><code class="language-julia">import PyPlot
 x &#61; rand&#40;10&#41;
@@ -143,7 +143,7 @@ plot   &#61; PlotlyJS.plot&#40;data, layout&#41;</code></pre>
 	CONTAINER = document.getElementById('fdppqn');
 	Plotly.newPlot(CONTAINER, fig.data, fig.layout)
 </script></div>
-<h3 id="math"><a href="#math">Math</a></h3>
+<h3 id="math"><a href="#math" class="header-anchor">Math</a></h3>
 <p>Franklin supports LaTeX-like maths, to render <em>inline</em> or <em>block</em> math, wrap your math with <code>&#36;...&#36;</code> or <code>&#36;&#36;...&#36;&#36;</code> respectively. You can also use basic <code>\begin&#123;equation&#125;...\end&#123;equation&#125;</code>, with <code>align</code>, <code>eqnarray</code> etc.</p>
 <p>Example <strong>math block</strong>:</p>
 <pre><code class="language-plaintext">&#36;&#36;\gamma_&#123;n&#125; &#61; \frac&#123;
@@ -159,7 +159,7 @@ plot   &#61; PlotlyJS.plot&#40;data, layout&#41;</code></pre>
 <p>Example <strong>multi-line math</strong> using the <code>\\</code> linebreak</p>
 \[f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\
 1-p_0^* & \text {if }k=0.\end{cases}\]
-<h3 id="diagrams"><a href="#diagrams">Diagrams</a></h3>
+<h3 id="diagrams"><a href="#diagrams" class="header-anchor">Diagrams</a></h3>
 <p>If you want <a href="https://mermaid-js.github.io/mermaid/#/"><code>mermaid</code></a> diagrams, no problem. Just stick your code between a <code>\begin&#123;mermaid&#125;&#123;&#125;</code> and <code>\end&#123;mermaid&#125;</code>, see how that works in the <code>utils.jl</code>:</p>
 <div class="mermaid">graph TD
 A[Client] -->|tcp_123| B(Load Balancer)
@@ -173,7 +173,7 @@ Still --> Moving
 Moving --> Still
 Moving --> Crash
 Crash --> [*]</div>
-<h3 id="other_markdown_tricks"><a href="#other_markdown_tricks">Other Markdown tricks</a></h3>
+<h3 id="other_markdown_tricks"><a href="#other_markdown_tricks" class="header-anchor">Other Markdown tricks</a></h3>
 <p><strong>Tables</strong>:</p>
 <table><tr><th align="right">First Header</th><th align="right">Second Header</th></tr><tr><td align="right">Content Cell</td><td align="right">Content Cell</td></tr><tr><td align="right">Content Cell</td><td align="right">Content Cell with more content</td></tr></table>
 <p><strong>Callouts</strong> via <code>\callout&#123;...&#125;</code> &#40;see the definition in <code>config.md</code>&#41;:</p>
