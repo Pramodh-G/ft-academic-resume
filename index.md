@@ -1,4 +1,4 @@
-@def title = "Academic template"
+@def title = "Pramodh Gopalan"
 
 <!-- -----------------
      BIOGRAPHY SECTION
@@ -9,35 +9,32 @@
 <!-- LEFT COLUMN -->
 @@col-12,col-lg-4,profile
 
-\img{"/assets/img/person.jpg", class="avatar avatar-circle", alt="Nelson Bighetti"}
+\img{"/assets/img/Pramodh.jpg", class="avatar avatar-circle", alt="Pramodh Gopalan"}
 \portrait{
-  name="Nelson Bighetti",
-  job="Professor of Artificial Intelligence",
-  link="https://www.stanford.edu/",
-  linkname="Stanford University",
-  twitter="https://twitter.com/GeorgeCushen",
-  gscholar="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ",
-  github="https://github.com/gcushen",
-  linkedin="https://www.linkedin.com/"
+  name="Pramodh Gopalan",
+  job="Sophomore Student at IITK",
+  link="www.iitk.ac.in",
+  linkname="Indian Institute of Technology, Kanpur",
+  twitter="",
+  gscholar="",
+  github="https://github.com/pramodh-g",
+  linkedin="https://www.linkedin.com/in/pramodh-gopalan-2617231ba/"
 }
 @@ <!-- end of column -->
 
 <!-- RIGHT COLUMN -->
 @@col-12,col-lg-8
 
-\begin{biography}{resume="/assets/demo_resume.pdf"}
-  Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops
-  self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+\begin{biography}{resume="/assets/CV.pdf"}
+  I am a sophomore at Indian Institute of Technology Kanpur majoring in Computer Science and Engineering. My main research interests lie in Analyzing the robustness properties of Machine Learning models and using them to create more robust and explainable models. More specifically, I aim to use adversarial attacks to explain why Neural Networks learn differently from humans, and then construct more explainable models. 
+  
+  I also want to study how neural networks optimize themselves, so that I can gain better insight into how they learn features; but I need a lot of weaponry(read as math knowledge) before I can attack it.
 \end{biography}
 
 \shortcv{
-  interests=["Artificial Intelligence", "Computational Linguistics", "Information Retrieval"],
+  interests= ["Adversarial Machine Learning", "Explainable Machine Learning", "Optimization"],
   education=[
-    ("PhD in Artificial Intelligence, 2012", "Stanford University"),
-    ("MEng in Artificial Intelligence, 2009", "Massachusetts Institute of Technology"),
-    ("BSc in Artificial Intelligence, 2008", "Massachusetts Institute of Technology")]
+    ("BTech in Computer Science and Engineering, 2023(Expected)", "Indian Institute of Technology, Kanpur")]
 }
 
 @@ <!-- end of column -->
@@ -51,9 +48,10 @@
 
 \sectionheading{"Skills", class="col-md-12"}
 
-\skill{"Julia", "90%", img="/assets/img/julia-dots.svg"}
-\skill{"Machine Learning", "100%", fa="chart-line"}
-\skill{"Photography", "10%", fa="camera-retro"}
+\skill{"Julia", "50%", img="/assets/img/julia-dots.svg"}
+\skill{"Pytorch", "75%", fa="python"}
+\skill{"Machine Learning", "75%", fa="chart-line"}
+\skill{"Stargazing", "15%", fa="camera-retro"}
 
 \end{section}
 
