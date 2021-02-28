@@ -48,10 +48,10 @@
 
 \sectionheading{"Skills", class="col-md-12"}
 
-\skill{"Julia", "50%", img="/assets/img/julia-dots.svg"}
-\skill{"Pytorch", "75%", fa="python"}
-\skill{"Machine Learning", "75%", fa="chart-line"}
-\skill{"Stargazing", "15%", fa="camera-retro"}
+\skill{"Julia", img="/assets/img/julia-dots-color.svg"}
+\skill{"Pytorch", img="/assets/img/PyTorch.png"}
+\skill{"Machine Learning", fa="chart-line"}
+\skill{"Stargazing", fa="camera-retro"}
 
 \end{section}
 
