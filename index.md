@@ -26,15 +26,20 @@
 @@col-12,col-lg-8
 
 \begin{biography}{resume="/assets/CV.pdf"}
-  I am a sophomore at Indian Institute of Technology Kanpur majoring in Computer Science and Engineering. My main research interests lie in Analyzing the robustness properties of Machine Learning models and using them to create more robust and explainable models. More specifically, I aim to use adversarial attacks to explain why Neural Networks learn differently from humans, and then construct more explainable models. 
-  
-  I also want to study how neural networks optimize themselves, so that I can gain better insight into how they learn features; but I need a lot of weaponry(read as math knowledge) before I can attack it.
+  I am a sophomore at Indian Institute of Technology,  Kanpur majoring in Computer Science and Engineering. My main research interests lie in Analyzing the robustness properties of Machine Learning models and using them to create more robust and explainable models. More specifically, I aim to use adversarial attacks to explain why Neural Networks learn differently from humans, and then construct more explainable models.
+
+  I am also interested in learning theory and optimization, because they might yield better insights into why ML models learn non-robust features, and how they can be fixed. Unfortunately, I am working on procuring weaponry (read as taking mathy classes) to be able to attack the problem.
+
+  I am fiercely passionate about the [Julia Language ](https://julialang.org/) and it's ecosystem, the [Neovim](https://neovim.io/) text editor, and the [Pop!_OS](https://pop.system76.com/) linux distribution. I assure you that any programming related conversation with me will be inevitably steered towards one of the above three topics, wherein I'd try my best to convince you to try atleast one of the three.
+
+  In my free time, I like to read fiction/fantasy books, listen to EDM music, sing Carnatic vocal music, play football/badminton and have deep philosophical conversations! Do contact me if you wanna play(music/games) sometime!
+
 \end{biography}
 
 \shortcv{
-  interests= ["Adversarial Machine Learning", "Explainable Machine Learning", "Optimization"],
+  interests= ["Adversarial Machine Learning", "Explainable Machine Learning", "Optimization", "Learning Theory"],
   education=[
-    ("BTech in Computer Science and Engineering, 2023(Expected)", "Indian Institute of Technology, Kanpur")]
+    ("B.Tech in Computer Science and Engineering, 2023(Expected)", "Indian Institute of Technology, Kanpur")]
 }
 
 @@ <!-- end of column -->
@@ -50,8 +55,7 @@
 
 \skill{"Julia", img="/assets/img/julia-dots-color.svg"}
 \skill{"Pytorch", img="/assets/img/PyTorch.png"}
-\skill{"Machine Learning", fa="chart-line"}
-\skill{"Stargazing", fa="camera-retro"}
+\skill{"Machine Learning", img="/assets/img/ML.png"}
 
 \end{section}
 
@@ -67,26 +71,31 @@
 @@col-12,col-lg-8
 
 \experience{
-  title="CEO",
-  company="GenCoin",
+  title="Research Assistant",
+  company="Vireshwar Kumar, IIT Delhi",
   descr="""
-    Responsibilities include:
-    * Analysing
-    * Modelling
-    * Deploying
+
+    * Examined the usage of Adversarial Attacks on UAVs.
+    * Read Literature on Adversarial ML; Implemented attacks and defenses.
+
     """,
   from="Jan 2017",
   to="Present",
-  location="California",
+  location="Kanpur",
   active=true
   }
 \experience{
-  title="Professor",
-  company="University X",
-  from="Jan 2016",
-  to="Dec 2016",
-  location="California",
-  descr="Taught electronic engineering and researched semiconductor physics."
+  title="Secretary, Programming Club",
+  company="Indian Institute of Technology, Kanpur",
+  from="April 2020",
+  to="April 2021",
+  location="India",
+  descr="""
+
+    * Conduct hackathons.
+    * Deliver talks on selected topics.
+  """,
+  last=true
   }
 
 @@
@@ -96,39 +105,6 @@
 <!-- -----------------------
      ACCOMPLISHMENTS SECTION
      ----------------------- -->
-
-\begin{section}{name="accomplishments"}
-
-\sectionheading{"Accomplish­ments", class="col-12 col-lg-4"}
-
-@@col-12,col-lg-8
-
-\certificate{
-  title="Neural Networks and Deep Learning",
-  meta="Coursera",
-  metalink="https://www.coursera.org",
-  date="Oct 2018",
-  certlink="https://www.coursera.org"
-  }
-\certificate{
-  title="Blockchain Fundamentals",
-  descr="Formulated informed **blockchain** models, hypotheses, and use cases.",
-  meta="Coursera",
-  metalink="https://www.edx.org",
-  date="Mar 2018",
-  certlink="https://www.edx.org"
-  }
-\certificate{
-  title="Object-Oriented Programming in R: S3 and R6 Course",
-  meta="DataCamp",
-  metalink="https://www.datacamp.com",
-  date="Jul 2017 – Dec 2017",
-  certlink="https://www.datacamp.com"
-}
-
-@@
-
-\end{section}
 
 <!-- --------------------
      RECENT POSTS SECTION
