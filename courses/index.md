@@ -32,7 +32,7 @@ Here is how my semesters at IITK are unfolding. For anyone from the CSE departme
 -   Introduction to Earth Science
 -   Communication Skills
 
-### Semester 4 (Ongoing)
+### Semester 4
 
 -   Introduction to Bayesian Analysis
 -   Probability theory for CS
@@ -40,3 +40,12 @@ Here is how my semesters at IITK are unfolding. For anyone from the CSE departme
 -   Computer Organization
 -   Software Engineering and Design
 -   Introduction to Indian Sociology
+
+### Semester 5 (Upcoming)
+
+- Operating Systems
+- Machine Learning
+- Theory of computing
+- Algorithms II
+- Statistical simulations and data analysis
+- Time series analysis
