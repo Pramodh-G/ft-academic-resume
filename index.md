@@ -26,9 +26,9 @@
 @@col-12,col-lg-8
 
 \begin{biography}{resume="/assets/CV.pdf"}
-  I am a sophomore at Indian Institute of Technology,  Kanpur majoring in Computer Science and Engineering. My main research interests lie in Analyzing the robustness properties of Machine Learning models and using them to create more robust and explainable models. More specifically, I aim to use adversarial attacks to explain why Neural Networks learn differently from humans, and then construct more explainable models.
+  I am a Junior Undergraduate at Indian Institute of Technology,  Kanpur majoring in Computer Science and Engineering. My main research interests lie in Analyzing the robustness properties of Machine Learning models and using them to create more robust and explainable models. More specifically, I aim to use adversarial attacks to explain why Neural Networks learn differently from humans, and then construct more explainable models.
 
-  I am also interested in learning theory and optimization, because they might yield better insights into why ML models learn non-robust features, and how they can be fixed. Unfortunately, I am working on procuring weaponry (read as taking mathy classes) to be able to attack the problem.
+  I am also interested in learning theory/Statistical ML and optimization, because they might yield better insights into why ML models learn non-robust features, and how they can be fixed. Unfortunately, I am working on procuring weaponry (read as taking mathy classes) to be able to attack the problem.
 
   I am fiercely passionate about the [Julia Language ](https://julialang.org/) and it's ecosystem, the [Neovim](https://neovim.io/) text editor, and the [Pop!_OS](https://pop.system76.com/) linux distribution. I assure you that any programming related conversation with me will be inevitably steered towards one of the above three topics, wherein I'd try my best to convince you to try atleast one of the three.
 

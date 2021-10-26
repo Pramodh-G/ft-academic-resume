@@ -41,11 +41,18 @@ Here is how my semesters at IITK are unfolding. For anyone from the CSE departme
 -   Software Engineering and Design
 -   Introduction to Indian Sociology
 
-### Semester 5 (Upcoming)
+### Semester 5
 
 - Operating Systems
 - Machine Learning
 - Theory of computing
 - Algorithms II
 - Statistical simulations and data analysis
-- Time series analysis
+
+### Semester 6 (Upcoming)
+
+- Compilers
+- Scientific Computation - I
+- Parallel Computing
+- UGP?
+- HSS - II
