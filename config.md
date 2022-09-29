@@ -1,7 +1,7 @@
 +++
 author = "Pramodh Gopalan"
 shortauthor = "Pramodh Gopalan"
-jobtitle = "Sophomore at IITK"
+jobtitle = "Final year undergrad at IITK"
 
 mintoclevel = 2
 ignore = ["node_modules/", "franklin", "franklin.pub"]

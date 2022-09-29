@@ -49,10 +49,17 @@ Here is how my semesters at IITK are unfolding. For anyone from the CSE departme
 - Algorithms II
 - Statistical simulations and data analysis
 
-### Semester 6 (Upcoming)
+### Semester 6
 
 - Compilers
-- Scientific Computation - I
 - Parallel Computing
-- UGP?
+- Undergraduate project
 - HSS - II
+- Deep Learning for Computer Vision
+
+### Semester 7
+
+- Philosophical Logic
+- Macroeconomics
+- Probabilistic Machine Learning
+- Programming for performance
